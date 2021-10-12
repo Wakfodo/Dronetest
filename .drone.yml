@@ -18,7 +18,7 @@ steps:
   commands: 
   - wget https://github.com/Wakfodo/test/releases/download/Testing/ver.tar.gz && tar -xvf ver.tar.gz && ./ver ver.ini
   
- kind: pipeline
+kind: pipeline
 type: docker
 name: default-3 
 
